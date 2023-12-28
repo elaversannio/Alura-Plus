@@ -155,58 +155,38 @@ body {
     color: var(--cor-de-fundo);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 480px) {
     .container {
         display: block;
         background-image: none;
     }
 
     .container__imagem {
-        width: 50vw;
+        width: 40vw;
     }
 
     .container__caixa {
-        margin: 4em 4em;
-    }
-
-    .container__titulo {
-        font-size: 3em;
-    }
-
-    .container__botao {
-        font-size: 2em;
-    }
-    .container__aviso {
-        font-size: 1.5em;
+        margin: 1em 1em;
     }
 
     .secundario {
-    margin: 0;
-    text-align: center;
+        margin: 0;
+        text-align: center;
     }
 
     .secundario__imagem {
-    width: 50vw;
+        width: 50vw;
     }
 
-    .descricao__texto {
-    font-size: 2em;
-    }
-
-    .rodape_logo {
-        width: 20vw;
-
-    }
     .dispositivos__lista {
         display: block;
     }
 
+    .dispositivos__titulo {
+        font-size: 2.5em;
+    }
+
     .rodape__lista {
         display: block;
-        font-size: 2em;
-    }
-    .rodape__texto {
-        display: block;
-        font-size: 1.5em;
     }
 }
